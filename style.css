@@ -1,0 +1,105 @@
+:root {
+    --color-accent: turquoise;
+}
+
+body {
+    font: 100%/1.5 system-ui;
+    accent-color: var(--color-accent);
+}
+
+nav {
+    margin-bottom: 1em;
+    border-bottom: 1px solid oklch(80% 3% 200);
+}
+
+nav ul, nav ul li {
+    display: contents;
+}
+
+a {
+    flex: 1;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    padding: 0.5em;
+}
+
+a.current {
+    border-bottom: 0.4em solid oklch(90% 3% 200);
+    padding-bottom: 0.1em;
+}
+
+a:hover {
+    border-bottom: 0.4em solid var(--color-accent);
+}
+
+form {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1em;
+}
+
+label {
+    grid-column: 1 / -1;
+    margin-block: 0.5em;
+}
+
+input, select, textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    grid-column: 1 / -1;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+    gap: 1em;
+}
+
+.projects article {
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 3;
+    gap: 1em;
+}
+
+.projects h2 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 400%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.1;
+    text-wrap: balance;
+}
+
+.resume-section {
+    margin-bottom: 2em;
+}
+
+.resume-section h2 {
+    border-bottom: 2px solid var(--color-accent);
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+.resume-section article {
+    margin-bottom: 1.5em;
+}
+
+.resume-section article h3 {
+    margin: 0.5em 0;
+}
+
+.resume-section article time {
+    display: block;
+    font-style: italic;
+    color: gray;
+}
