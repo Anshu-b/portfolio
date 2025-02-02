@@ -76,3 +76,47 @@ if (localStorage.colorScheme) {
     document.documentElement.style.setProperty('color-scheme', event.target.value);
     localStorage.colorScheme = event.target.value
   });
+
+  export async function fetchJSON(url) {
+    try {
+        // Fetch the JSON file from the given URL
+        const response = await fetch(url);
+        if (!response.ok) {
+          throw new Error(`Failed to fetch projects: ${response.statusText}`);
+      }
+      const data = await response.json();
+      return data; 
+
+
+    } catch (error) {
+        console.error('Error fetching or parsing JSON data:', error);
+    }
+}
+
+export async function fetchGitHubData(username) {
+  return fetchJSON(`https://api.github.com/users/${username}`);
+}
+
+export function renderProjects(project, containerElement, headingLevel = 'h2') {
+  containerElement.innerHTML = '';
+  const projectsTitleElement = document.querySelector('.projects-title');
+  if (project.length === 0) {
+      // Display a placeholder message if there are no projects
+      const placeholderMessage = document.createElement('p');
+      placeholderMessage.textContent = 'No projects available at the moment.';
+      containerElement.appendChild(placeholderMessage);
+      projectsTitleElement.textContent = '0 Projects';
+  } else {
+      project.forEach(proj => {
+          const article = document.createElement('article');
+          article.innerHTML = `
+              <${headingLevel}>${proj.title}</${headingLevel}>
+              <img src="${proj.image}" alt="${proj.title}">
+              <p>${proj.description}</p>
+          `;
+
+          containerElement.appendChild(article);
+      });
+      projectsTitleElement.textContent = `${project.length} Projects`;
+  }
+}
