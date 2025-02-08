@@ -93,11 +93,7 @@ if (localStorage.colorScheme) {
     }
 }
 
-export async function fetchGitHubData(username) {
-  return fetchJSON(`https://api.github.com/users/${username}`);
-}
-
-export function renderProjects(project, containerElement, headingLevel = 'h2') {
+export function renderProjects(project, containerElement, headingLevel = 'h4') {
   containerElement.innerHTML = '';
   const projectsTitleElement = document.querySelector('.projects-title');
   if (project.length === 0) {
@@ -110,13 +106,17 @@ export function renderProjects(project, containerElement, headingLevel = 'h2') {
       project.forEach(proj => {
           const article = document.createElement('article');
           article.innerHTML = `
-              <${headingLevel}>${proj.title}</${headingLevel}>
+              <${headingLevel}>${proj.title}</${headingLevel}> 
               <img src="${proj.image}" alt="${proj.title}">
-              <p>${proj.description}</p>
+              <p>${proj.description}<br><span class="project-year">C. ${proj.year}</span></p>
           `;
 
           containerElement.appendChild(article);
       });
-      projectsTitleElement.textContent = `${project.length} Projects`;
+      projectsTitleElement.textContent = `${project.length} Latest Projects`;
   }
+}
+
+export async function fetchGitHubData(username) {
+  return fetchJSON(`https://api.github.com/users/${username}`);
 }

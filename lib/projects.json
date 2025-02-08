@@ -1,62 +1,74 @@
 [
     {
-        "title": "Lorem ipsum dolor sit.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis mollitia dicta excepturi fugiat nobis ipsam aperiam quis enim, aut, odio ut hic maxime, itaque dolorum! Quo quibusdam iusto dolores natus."
+        "title": "Recipes-n-Ratings.",
+        "year": "2024",
+        "image": "https://cdn.vox-cdn.com/thumbor/mClqTf2YmzWMeZ2FHjpaeJd3Hd0=/0x0:2500x1667/1200x800/filters:focal(1050x634:1450x1034)/cdn.vox-cdn.com/uploads/chorus_image/image/72223460/JakobLayman.1121.RamenNagi_006.0.jpeg",
+        "description": "Cleaned and engineered features on 230,000+ recipes to create a regression model with nutritional data and hashtags for optimization."
     },
     {
-        "title": "Assumenda accusamus nulla veniam?",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Maiores perspiciatis, explicabo facere dolorem iste consectetur at cumque voluptatum aut? Eligendi, nam doloribus saepe rerum numquam aut architecto dolor atque odit explicabo provident nobis modi. Expedita saepe minima ab!"
+        "title": "Fantasy Sports Assistant.",
+        "year": "2023",
+        "image": "https://a1.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fmisc_logos%2F500%2Ffba.png",
+        "description": "Built software using ESPN Fantasy API to analyze trades, rank draft prospects, suggest replacements, and optimize matchups."
     },
     {
-        "title": "Laboriosam repellat unde voluptatibus.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Qui enim eius autem fugiat ipsum laborum officiis totam architecto illo, perferendis velit, blanditiis maxime quia fugit cum id saepe illum quod. Deserunt inventore laborum, possimus blanditiis cupiditate ad sit!"
+        "title": "Criminal Justice with AI.",
+        "year": "2022",
+        "image": "https://images.squarespace-cdn.com/content/v1/63d40fe2cbd65e16cb8098b6/1678134763803-PJOOWJ1E7JDNE8C6OU2M/AI%2Bin%2BCriminal%2BJustice.jpeg",
+        "description": "Used COMPAS data to predict recidivism rates and reduce human bias in jail sentencing through AI-driven analysis."
     },
     {
-        "title": "Sequi mollitia quam optio.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Id quo optio, eos iure aut, sequi et nihil dolore quasi ipsa animi placeat pariatur? Quo sunt error magni in. Deserunt, illo voluptas. Tempora magnam magni doloribus esse aut alias?"
+        "title": "Personal Website.",
+        "year": "2024",
+        "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQGRW_J4Fq8OJg/articleshare-shrink_800/articleshare-shrink_800/0/1721349873016?e=2147483647&v=beta&t=Gi85C-xf7eEyzCfKUXhuK5cpB5KmSHZMPEnTJeBrx44",
+        "description": "Created a website using Astro Framework to showcase work experience, projects, and a blog on course takeaways."
     },
     {
-        "title": "Eveniet quo obcaecati beatae.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Mollitia, voluptate error. Eos, tempore! Vitae a modi maiores repellat consequatur esse, consequuntur illum alias accusamus eaque, repellendus ea enim nesciunt nobis quasi veniam voluptatem ipsa quaerat earum assumenda facilis."
+        "title": "Home Foresting.",
+        "year": "2025",
+        "image": "https://www.easytogrowbulbs.com/cdn/shop/articles/plumeria-for-sale.jpg?v=1557257275&width=1100",
+        "description": "Designed a platform to share my rare-plant hobby and provide resources on growing rare fruiting plants."
     },
     {
-        "title": "A debitis cumque ratione.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Illum voluptatem enim aliquid eius distinctio deleniti possimus atque, debitis esse rerum ut repudiandae ipsa deserunt repellendus dicta eum nesciunt doloribus eligendi vero sit et earum fugiat hic itaque? Delectus."
+        "title": "SongSpace.",
+        "year": "2023",
+        "image": "https://storage.googleapis.com/pr-newsroom-wp/1/2023/12/Generic-FTR-headers_V10.jpg",
+        "description": "Built a Spotify prototype using Python Flask, SQL, and HTML, allowing users to log in, upload, and stream music."
     },
     {
-        "title": "Reprehenderit, dolore? Repellendus, voluptatem?",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Consequuntur iure praesentium asperiores, dolorum autem id nulla velit maxime nisi laudantium optio architecto minus eos, aut quo, illum fugiat! Fugit suscipit mollitia adipisci nobis hic nesciunt vitae dolore tempora."
+        "title": "MiniGit (IP).",
+        "year": "2025",
+        "image": "https://github.com/images/modules/site/codespaces/fp24/features-river-breakout.webp",
+        "description": "Developing a Java-based project to replicate essential Git commands for personal and educational use."
     },
     {
-        "title": "Dolorum, excepturi. Impedit, sequi.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Laudantium quo tempora laboriosam praesentium qui natus veniam illo, dolorem autem quod dolorum tenetur neque recusandae distinctio velit dolore, quidem ullam aliquam ab. Quibusdam saepe velit commodi, fugit iste ex!"
+        "title": "WebCrawler.",
+        "year": "2022",
+        "image": "https://cdn-1.webcatalog.io/catalog/webcrawler/webcrawler-social-preview.png?v=1717009509044",
+        "description": "Developed a Java web crawler prototype using recursion, queue management, and data extraction techniques."
     },
     {
-        "title": "Provident velit sequi libero.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Molestiae odit aliquid nobis distinctio alias libero dolore? Aspernatur, placeat soluta! Velit, vitae. Suscipit vel neque necessitatibus. Atque magni aperiam, quas, ipsa repudiandae possimus sint ipsam, repellat ut maiores odit?"
+        "title": "Image Classification App.",
+        "year": "2024",
+        "image": "https://docs.clarifai.com/img/tutorial/how-to-evaluate-an-image-classification-model/image_classification_example.webp",
+        "description": "Created a Python application for image processing, with features like rotation, blurring, and color adjustments."
     },
     {
-        "title": "Quidem optio nisi minus.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Nemo, officia corporis, perferendis accusamus iste labore excepturi tempore libero praesentium nostrum sed nesciunt reprehenderit dolorem numquam dolor eligendi! Obcaecati, velit maxime corrupti minus a voluptas perspiciatis quidem quasi mollitia!"
+        "title": "Meteorite Landings.",
+        "year": "2023",
+        "image": "https://images.theconversation.com/files/549742/original/file-20230922-19-t7wiqi.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=926&fit=clip",
+        "description": "Analyzed NASA's meteorite dataset using pandas to explore patterns and trends in landings over time."
     },
     {
-        "title": "Repellendus quae est tempora?",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Officia blanditiis incidunt eius explicabo ullam ipsa, nemo ea eaque suscipit officiis minima quibusdam eveniet rerum dignissimos fugit veritatis sunt magni dolorem velit animi ducimus. Ducimus quaerat sed tenetur amet."
+        "title": "Song Recommender App.",
+        "year": "2023",
+        "image": "https://i.ytimg.com/vi/3fkYTQ5szPs/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgWyhcMA8=&rs=AOn4CLAOWCu8soi0ClQh_TSq06OSCeALtw",
+        "description": "Created a recommender system to suggest songs based on audio feature similarity to a user's favorite tracks."
     },
     {
-        "title": "Minima exercitationem provident enim.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Fuga nesciunt eaque, est explicabo earum beatae aliquam adipisci veritatis excepturi doloremque error repudiandae hic ipsum, atque culpa nulla eius ullam possimus architecto ea sapiente iusto repellendus at vel. Repellat."
+        "title": "DS3 Site.",
+        "year": "2025",
+        "image": "https://linktr.ee/og/image/ds3ucsd.jpg",
+        "description": "Rebuilding the DS3 website using React Framework to improve accessibility and navigation for club members."
     }
 ]

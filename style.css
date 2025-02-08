@@ -80,12 +80,18 @@ button {
 .projects article {
     display: grid;
     grid-template-rows: subgrid;
-    grid-row: span 3;
+    grid-row: span 4;
     gap: 1em;
 }
 
 .projects h2 {
     margin: 0;
+}
+
+.project-year {
+    padding: 0; /* Remove any padding */
+    text-decoration: underline;
+    color: var(--color-accent);
 }
 
 h1 {
@@ -138,3 +144,129 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 100%;
     font-family: inherit;
 }
+
+.profile-stats {
+    display: flex;
+    justify-content: space-around; /* Spread <dl>s evenly across the container */
+    align-items: center;
+    gap: 2rem;
+    border: 1px solid var(--color-accent);
+    font-family: Arial, sans-serif; /* Use a clean font */
+}
+
+.profile-stats dl {
+    display: grid;
+    grid-template-columns: 1fr; /* Each <dt> and <dd> occupies a single column */
+    grid-template-rows: auto auto; /* Define two rows: one for <dt> and one for <dd> */
+    text-align: center;
+    margin: 1rem; /* Add margin to create spacing between each <dl> */
+}
+
+.profile-stats dt {
+    grid-row: 1; /* Place <dt> in the first row */
+    font-size: 1.3rem; /* Small text for the label */
+    font-weight: 600; /* Semi-bold text */
+    color: white; /* Dimmed color for labels */
+    padding: 0 1rem; /* Add horizontal padding */
+}
+
+.profile-stats dd {
+    grid-row: 2; /* Place <dd> in the second row */
+    font-size: 2rem; /* Larger text for numbers */
+    color: white; /* Use black for numbers */
+    margin: 0; /* Remove default margin */
+}
+
+.projects-title {
+    padding-top: 2rem; /* Add padding above the title */
+}
+
+.projects img {
+    max-width: 100%; /* Ensure the image does not exceed the container's width */
+    height: auto; /* Maintain the aspect ratio */
+    min-height: 200px; /* Set a maximum height */
+    max-height: 200px; /* Set a maximum height */
+    min-width: 300px; /* Set a maximum height */
+    max-width: 300px; /* Set a maximum height */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    padding-left: 5px; /* Add small padding to the left */
+    padding-right: 5px; /* Add small padding to the right */
+}
+
+#projects-pie-plot {
+    max-width: 20em;
+    margin-block: 2em;
+  
+    overflow: visible;
+}
+
+.legend .swatch {
+    display: inline-block;
+    width: 1em; /* Set the width */
+    height: 1em; /* Set the height */
+    aspect-ratio: 1 / 1; /* Ensure the aspect ratio is 1:1 */
+    background-color: var(--color); /* Set the background color */
+    border-radius: 4px; /* Add slight rounding to the corners */
+    margin-right: 0.5em; /* Add some space to the right of the swatch */
+}
+
+.legend-li {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    margin-bottom: 0.5em; /* Add space below each item */
+}
+
+.legend {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Distribute space evenly between items */
+    gap: 1em; /* Add equal spacing between items */
+    padding: 1em; /* Add padding around the legend */
+    list-style: none; /* Remove default list styling */
+    border-radius: 4px; /* Add slight rounding to the corners */
+    border: 1px solid var(--color-accent); /* Add a border with the accent color */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em; /* Add space between the legend and the chart */
+}
+
+.searchBar {
+    width: 100%; /* Make the search bar take the full width of its container */
+    padding: 0.5em; /* Add padding inside the search bar */
+    margin: 1em 0; /* Add margin around the search bar */
+    border: 2px solid var(--color-accent); /* Add a border with the accent color */
+    border-radius: 4px; /* Add slight rounding to the corners */
+    font-size: 1.5em; /* Set the font size */
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    border-color: var(--color-accent); /* Set the border color */
+}
+
+.searchBar:focus {
+    outline: none; /* Remove the default outline on focus */
+    border-color: var(--color-accent-dark); /* Change the border color on focus */
+    box-shadow: 0 0 5px var(--color-accent-dark); /* Add a shadow on focus */
+}
+
+&:has(path:hover) {
+    path:not(:hover) {
+      opacity: 0.5;
+    }
+}
+
+path {
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.selected {
+    --color: oklch(60% 45% 0) !important;
+  
+    &:is(path) {
+      fill: var(--color);
+    }
+  }
