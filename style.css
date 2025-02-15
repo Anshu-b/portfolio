@@ -151,6 +151,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     gap: 2rem;
     border: 1px solid var(--color-accent);
+    background-color: #0d1117; /* GitHub dark theme background */
     font-family: Arial, sans-serif; /* Use a clean font */
 }
 
@@ -269,4 +270,127 @@ path {
     &:is(path) {
       fill: var(--color);
     }
+  }
+
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    border: 1px solid var(--color-accent);
+    background-color: #0d1117; /* GitHub dark theme background */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    padding: 1.5rem;
+    border-radius: 6px;
+  }
+  
+  .stats dt {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  
+  .stats dd {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #e6edf3; /* GitHub light text color */
+    margin: 0;
+    text-align: left;
+  }
+
+  /* Make gridlines lighter */
+.gridlines line {
+    stroke: #e0e0e0;
+    stroke-opacity: 0.5;
+    shape-rendering: crispEdges;
+  }
+  
+
+
+/* Make gridlines lighter */
+.gridlines line {
+    stroke: #e0e0e0;
+    stroke-opacity: 0.5;
+    shape-rendering: crispEdges;
+  }
+  
+  /* Grid layout for dl.info elements */
+  dl.info {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.5em 1em;
+    margin: 0;
+    padding: 0.5em;
+    transition-duration: 500ms;
+    transition-property: opacity, visibility;
+  }
+  
+  dl.info dt {
+    margin: 0;
+    font-weight: normal;
+    color: #666;
+    color: white;
+  }
+  
+  dl.info dd {
+    margin: 0;
+    font-weight: 500;
+    color: #333;
+    color: white;
+  }
+
+  dl.info[hidden]:not(:hover, :focus-within) {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  /* Tooltip positioning */
+  .tooltip {
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    background: #0d1117;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.5em;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1000;
+  }
+
+  /* Make dots brighter */
+   circle {
+    transition: 200ms;
+    transform-origin: center;
+    transform-box: fill-box;
+    fill: red;  /* Brighter blue */
+    stroke: #2171b5;  /* Darker blue outline */
+    stroke-width: 1px;
+    opacity: 1;
+  }
+  
+  /* Hover effect for dots */
+  circle:hover {
+    fill: #ff7f0e;  /* Orange on hover */
+    cursor: pointer;
+    transform: scale(1.5);
+  }
+
+  @keyframes marching-ants {
+    to {
+      stroke-dashoffset: -8; /* 5 + 3 */
+    }
+  }
+  
+  .selection {
+    fill-opacity: 0.1;
+    stroke: black;
+    stroke-opacity: 0.7;
+    stroke-dasharray: 5 3;
+    animation: marching-ants 2s linear infinite;
+  }
+
+  circle.selected {
+    fill: #ff6b6b;
   }
