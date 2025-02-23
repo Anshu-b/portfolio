@@ -2,72 +2,91 @@
     {
         "title": "Recipes-n-Ratings.",
         "year": "2024",
+        "url": "https://anshu-b.github.io/recipes-n-ratings/",
         "image": "https://cdn.vox-cdn.com/thumbor/mClqTf2YmzWMeZ2FHjpaeJd3Hd0=/0x0:2500x1667/1200x800/filters:focal(1050x634:1450x1034)/cdn.vox-cdn.com/uploads/chorus_image/image/72223460/JakobLayman.1121.RamenNagi_006.0.jpeg",
         "description": "Cleaned and engineered features on 230,000+ recipes to create a regression model with nutritional data and hashtags for optimization."
     },
     {
         "title": "Fantasy Sports Assistant.",
         "year": "2023",
+        "url": "https://github.com/Anshu-b/fantasy-basketball-assistant",
         "image": "https://a1.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fmisc_logos%2F500%2Ffba.png",
         "description": "Built software using ESPN Fantasy API to analyze trades, rank draft prospects, suggest replacements, and optimize matchups."
     },
     {
+        "title": "BikeWatching.",
+        "year": "2025",
+        "url": "https://anshu-b.github.io/bikewatching/",
+        "image": "/portfolio/images/bikewatch.png",
+        "description": "A data visualization project built in JavaScript to visualize bike traffic in the Boston area."
+    },
+    {
         "title": "Criminal Justice with AI.",
         "year": "2022",
+        "url": "https://docs.google.com/presentation/d/1fg3JQVlARlIz0MsUlO3gpdrQ76BD-Gw2e2R1KZpkpME/edit?usp=sharing",
         "image": "https://images.squarespace-cdn.com/content/v1/63d40fe2cbd65e16cb8098b6/1678134763803-PJOOWJ1E7JDNE8C6OU2M/AI%2Bin%2BCriminal%2BJustice.jpeg",
         "description": "Used COMPAS data to predict recidivism rates and reduce human bias in jail sentencing through AI-driven analysis."
     },
     {
         "title": "Personal Website.",
         "year": "2024",
+        "url": "https://github.com/Anshu-b/ansh",
         "image": "https://media.licdn.com/dms/image/sync/v2/D5627AQGRW_J4Fq8OJg/articleshare-shrink_800/articleshare-shrink_800/0/1721349873016?e=2147483647&v=beta&t=Gi85C-xf7eEyzCfKUXhuK5cpB5KmSHZMPEnTJeBrx44",
         "description": "Created a website using Astro Framework to showcase work experience, projects, and a blog on course takeaways."
     },
     {
         "title": "Home Foresting.",
         "year": "2025",
+        "url": "http://anshu-b.github.io/home-foresting/",
         "image": "https://www.easytogrowbulbs.com/cdn/shop/articles/plumeria-for-sale.jpg?v=1557257275&width=1100",
         "description": "Designed a platform to share my rare-plant hobby and provide resources on growing rare fruiting plants."
     },
     {
         "title": "SongSpace.",
         "year": "2023",
+        "url": "https://songspace-production.up.railway.app/login",
         "image": "https://storage.googleapis.com/pr-newsroom-wp/1/2023/12/Generic-FTR-headers_V10.jpg",
         "description": "Built a Spotify prototype using Python Flask, SQL, and HTML, allowing users to log in, upload, and stream music."
     },
     {
         "title": "MiniGit (IP).",
         "year": "2025",
+        "url": "",
         "image": "https://github.com/images/modules/site/codespaces/fp24/features-river-breakout.webp",
         "description": "Developing a Java-based project to replicate essential Git commands for personal and educational use."
     },
     {
         "title": "WebCrawler.",
         "year": "2022",
+        "url": "",
         "image": "https://cdn-1.webcatalog.io/catalog/webcrawler/webcrawler-social-preview.png?v=1717009509044",
         "description": "Developed a Java web crawler prototype using recursion, queue management, and data extraction techniques."
     },
     {
         "title": "Image Classification App.",
         "year": "2024",
+        "url": "",
         "image": "https://docs.clarifai.com/img/tutorial/how-to-evaluate-an-image-classification-model/image_classification_example.webp",
         "description": "Created a Python application for image processing, with features like rotation, blurring, and color adjustments."
     },
     {
         "title": "Meteorite Landings.",
         "year": "2023",
+        "url": "",
         "image": "https://images.theconversation.com/files/549742/original/file-20230922-19-t7wiqi.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=926&fit=clip",
         "description": "Analyzed NASA's meteorite dataset using pandas to explore patterns and trends in landings over time."
     },
     {
         "title": "Song Recommender App.",
         "year": "2023",
+        "url": "",
         "image": "https://i.ytimg.com/vi/3fkYTQ5szPs/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgWyhcMA8=&rs=AOn4CLAOWCu8soi0ClQh_TSq06OSCeALtw",
         "description": "Created a recommender system to suggest songs based on audio feature similarity to a user's favorite tracks."
     },
     {
         "title": "DS3 Site.",
         "year": "2025",
+        "url": "https://www.ds3ucsd.com/",
         "image": "https://linktr.ee/og/image/ds3ucsd.jpg",
         "description": "Rebuilding the DS3 website using React Framework to improve accessibility and navigation for club members."
     }

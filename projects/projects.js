@@ -45,54 +45,6 @@ data.forEach((d, idx) => {
 
 renderPieChart(projects);
 
-/*
-function renderPieChart(projectsGiven) {
-    // Clear existing SVG and legend
-    d3.select('svg').selectAll('*').remove();
-    d3.select('.legend').selectAll('*').remove();
-
-    // Set up arc generator
-    let arcGenerator = d3.arc().innerRadius(0).outerRadius(50); // Match your radius
-    let colors = d3.scaleOrdinal(d3.schemeTableau10);
-
-    // Calculate rolled data
-    let rolledData = d3.rollups(
-        projectsGiven,
-        (v) => v.length,
-        (d) => d.year,
-    );
-
-    // Transform data for pie chart
-    let data = rolledData.map(([year, count]) => {
-        return { value: count, label: year };
-    });
-
-    // Generate pie slices
-    let sliceGenerator = d3.pie().value((d) => d.value);
-    let arcData = sliceGenerator(data);
-
-    // Create pie chart (no explicit translation for `g` group)
-    let g = d3.select('svg')
-        .append('g');
-
-    g.selectAll('path')
-        .data(arcData)
-        .enter()
-        .append('path')
-        .attr('d', arcGenerator)
-        .attr('fill', (d, i) => colors(i));
-
-    // Create legend
-    let legend = d3.select('.legend');
-    data.forEach((d, idx) => {
-        legend.append('li')
-            .attr('style', `--color:${colors(idx)}`) // Match your legend styling
-            .attr('class', "legend-li")
-            .html(`<span class="swatch"></span> ${d.label} <em>(${d.value})</em>`); // Match your HTML structure
-    });
-}
-*/
-
 function renderPieChart(projectsGiven) {
     d3.select('svg').selectAll('*').remove();
     d3.select('.legend').selectAll('*').remove();

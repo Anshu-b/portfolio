@@ -107,7 +107,7 @@ export function renderProjects(project, containerElement, headingLevel = 'h4') {
       project.forEach(proj => {
           const article = document.createElement('article');
           article.innerHTML = `
-              <${headingLevel}>${proj.title}</${headingLevel}> 
+              <a href=${proj.url}><${headingLevel}>${proj.title}</${headingLevel}></a>
               <img src="${proj.image}" alt="${proj.title}">
               <p>${proj.description}<br><span class="project-year">C. ${proj.year}</span></p>
           `;
